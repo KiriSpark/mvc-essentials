@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lynda-mvc5training\lynda-mvc5training.csproj">
-      <Project>{810891EC-4F12-4A0F-805E-0411B7939208}</Project>
-      <Name>lynda-mvc5training</Name>
+    <ProjectReference Include="..\mvc5-training\mvc5-training.csproj">
+      <Project>{810891ec-4f12-4a0f-805e-0411b7939208}</Project>
+      <Name>mvc5-training</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

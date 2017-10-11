@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace lynda_mvc5training
+namespace mvc5training
 {
     public class BundleConfig
     {
