@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace mvc5training.Controllers
+namespace mvc5_training.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,6 +13,18 @@ namespace mvc5training.Controllers
             return View();
         }
 
-        
+        public ActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
